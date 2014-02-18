@@ -22,8 +22,8 @@ default["zookeeper"]["nodes"] = []
 # For chef client, perform a search for nodes with this role and with same cluster_name
 default["zookeeper"]["server_role"] = "zookeeper"
 
-default["zookeeper"]["version"] = "3.3.6"
+default["zookeeper"]["version"] = "3.4.5"
 default["zookeeper"]["checksum"] = "eb311ec0479a9447d075a20350ecfc5cf6a2a6d9842d13b59d7548430ac37521" # zookeeper 3.3.6
-default["zookeeper"]["download_url"] = "http://www.us.apache.org/dist/zookeeper/#{node[:zookeeper][:version]}/#{node[:zookeeper][:version]}.tar.gz"
+default["zookeeper"]["download_url"] = "http://mirror.cogentco.com/pub/apache/zookeeper/zookeeper-#{node[:zookeeper][:version]}/zookeeper-#{node[:zookeeper][:version]}.tar.gz"
 
 default["zookeeper"]["quorum_size"] = 1
