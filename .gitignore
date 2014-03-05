@@ -2,3 +2,6 @@
 *~
 *.swp
 Berksfile.lock
+
+*.sublime-project
+*.sublime-workspace
