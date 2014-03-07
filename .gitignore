@@ -5,3 +5,4 @@ Berksfile.lock
 
 *.sublime-project
 *.sublime-workspace
+/.project
