@@ -24,6 +24,6 @@ default["zookeeper"]["server_role"] = "zookeeper"
 
 default["zookeeper"]["version"] = "3.4.5"
 default["zookeeper"]["checksum"] = "e92b634e99db0414c6642f6014506cc22eefbea42cc912b57d7d0527fb7db132"
-default["zookeeper"]["download_url"] = "http://mirror.cogentco.com/pub/apache/zookeeper/zookeeper-#{node[:zookeeper][:version]}/zookeeper-#{node[:zookeeper][:version]}.tar.gz"
+default["zookeeper"]["download_url"] = "http://www.carfab.com/pub/apache/zookeeper/zookeeper-#{node[:zookeeper][:version]}/zookeeper-#{node[:zookeeper][:version]}.tar.gz"
 
 default["zookeeper"]["quorum_size"] = 1
